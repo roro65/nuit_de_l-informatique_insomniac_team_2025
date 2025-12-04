@@ -1,8 +1,22 @@
 div{
-    background-color: var(--accent-400);
+    border-color: var(--secondary-900);
+    margin:2rem;
 }
 
 #box-holder{
     background-color: var(--accent-200);
     margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+body{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+h1{
+    text-align:center;
 }
