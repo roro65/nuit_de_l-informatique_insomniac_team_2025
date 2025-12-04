@@ -1,12 +1,10 @@
-<?php
-// page_accueil.php
-?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <title>Page d'accueil</title>
-    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="css/globals.css" />
 </head>
 <body>
 
