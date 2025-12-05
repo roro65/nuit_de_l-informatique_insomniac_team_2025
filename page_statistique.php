@@ -34,22 +34,27 @@
     </nav>
 </header>
 	<body>
-		<h1>Page statistique</h1>
+		<div class="container">
+			<h2>Page statistique</h2>
+			<br>
 
-		<div>
-			<h2>Statistiques des visiteurs avant la découverte du site</h2>
-			<p>Voici quelques statistiques sur les connaissances de l'ensemble des visiteurs avant de découvrir les informations du site.</p>
-			<div id="stat_avant">
+			<div class="nird-section">
+				<h3>Statistiques des visiteurs avant la découverte du site</h3>
+				<p>Voici quelques statistiques sur les connaissances de l'ensemble des visiteurs avant de découvrir les informations du site.</p>
+				<div id="stat_avant">
 
+				</div>
 			</div>
-		</div>
+			<br>
 
-		<div>
-			<h2>Évolution personnelle des connaissances</h2>
-			<p>Voici l'évolution de vos résultats après vous être renseigné sur notre site.</p>
-			<div id="stat_apres">
+			<div class="nird-section">
+				<h3>Évolution personnelle des connaissances</h3>
+				<p>Voici l'évolution de vos résultats après vous être renseigné sur notre site.</p>
+				<div id="stat_apres">
 
+				</div>
 			</div>
+			<br>
 		</div>
 	</body>
 </html>
