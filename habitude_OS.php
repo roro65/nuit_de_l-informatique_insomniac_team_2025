@@ -158,8 +158,8 @@
         <br>
 
         <div class="nird-section">
-            <h3>5eme partie</h3>
-            <p>Lorem Ipsum</p>
+            <h3>>Deux actions essentielles pour votre cybersécurité</h3>
+            <p>Pour limiter cela, il n’existe que deux solutions principales. Premièrement, désactivez la localisation, le micro et la caméra. Ensuite, prenez le temps de lire au moins le résumé des données collectées.</p>
         </div>
         <br>
 
