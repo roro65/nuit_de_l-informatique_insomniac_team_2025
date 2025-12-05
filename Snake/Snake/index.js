@@ -346,6 +346,7 @@ function mainLoop(){
         return;
     }
     DisplayScreen(Game);
+    document.getElementById("Score").textContent = Game.Score;
 }
 const loop = setInterval(mainLoop, 300);
 
