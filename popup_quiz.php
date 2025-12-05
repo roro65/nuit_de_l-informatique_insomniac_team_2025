@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
-    <title>Popup Quizz Intro</title>
+    <title>"Popup Quizz Intro"</title>
     <link rel="stylesheet" href="css/globals.css" />
     
 </head>
