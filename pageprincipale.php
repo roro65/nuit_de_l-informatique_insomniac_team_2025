@@ -6,29 +6,7 @@
     <title>Page d'accueil</title>
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/header_style.css" />
-<style>
 
-.container {
-    padding: 20px;
-    margin-top: 20px;
-}
-.nird-section {
-    border: 3px solid #00ffcc;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #00ffcc;
-}
-
-ul li {
-    margin: 10px 0;
-}
-.menu li a {
-    color: #00ffcc;
-}
-.burger-icon span {
-    background: #00ffcc;
-}
-</style>
 </head>
 
 <body>
@@ -60,9 +38,11 @@ ul li {
 </header>
 
 <div class="container">
-    <div class="nird-section">
-        <h2>Qu’est-ce que le NIRD ?</h2>
 
+    <!-- TITRE HORS ENCADRÉ -->
+    <h2>Qu’est-ce que le NIRD ?</h2>
+
+    <div class="nird-section">
         <p>
             NIRD est un programme communautaire qui invite les établissements scolaires et les collectivités
             qui les accompagnent à s’engager progressivement vers un numérique davantage inclusif, responsable
@@ -78,6 +58,22 @@ ul li {
             <li>Faire de notre établissement un exemple innovant et inspirant.</li>
         </ul>
     </div>
+    <br>
+    <h2>Les trois piliers de la démarche NIRD</h2>
+
+    <div class="nird-section">
+        <p>Au carrefour du double objectif de transformation numérique et de transition écologique, la démarche NIRD repose sur trois piliers :</p>
+
+        <h3>1. Inclusion</h3>
+        <p>Accès équitable au numérique, réduction de la fracture numérique, pour que tous les élèves bénéficient des mêmes opportunités.</p>
+
+        <h3>2. Responsabilité</h3>
+        <p>Usage raisonné et réfléchi de technologies souveraines et respectueuses des données personnelles, pour un numérique éthique et sûr.</p>
+
+        <h3>3. Durabilité</h3>
+        <p>Lutte contre l’obsolescence programmée, notamment par le choix de Linux pour l’équipement, maîtrise des coûts et promotion d’un usage durable des ressources.</p>
+    </div>
+
 </div>
 
 </body>

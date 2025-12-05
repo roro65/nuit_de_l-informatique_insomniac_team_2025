@@ -1,9 +1,7 @@
+
 /* -------------------- Import des polices -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
-
-/* -------------------- Variables -------------------- */
-
 
 /* -------------------- Styles généraux -------------------- */
 body {
@@ -12,25 +10,32 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Jersey 25', sans-serif;
-}
-
-/* Container et section NIRD */
 .container {
     padding: 20px;
     margin-top: 20px;
 }
 
 .nird-section {
-    border: 3px solid #00ffcc;
+    border: 3px solid var(--secondary);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 15px #00ffcc;
+    box-shadow: 0 0 15px var(--secondary);
 }
 
 ul li {
     margin: 10px 0;
+}
+
+/* -------------------- Titres -------------------- */
+h2 {
+    font-family: 'Jersey 25', sans-serif;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Jersey 25', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 /* -------------------- Header / Navigation -------------------- */
@@ -60,7 +65,7 @@ header nav {
 }
 
 .menu li a {
-    color: #00ffcc;
+    color: var(--secondary);
 }
 
 /* -------------------- Burger Menu -------------------- */
@@ -84,7 +89,7 @@ header nav {
     display: block;
     width: 30px;
     height: 4px;
-    background-color: #00ffcc;
+    background-color: var(--secondary);
     border-radius: 2px;
     transition: 0.3s ease;
 }
