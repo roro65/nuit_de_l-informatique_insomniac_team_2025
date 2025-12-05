@@ -100,7 +100,7 @@ function updateGame(Game){
         generatePomm(Game);
         let lastSeg = Game.Tail[Game.Tail.length - 1];
         Game.Tail.push({ x: lastSeg.x, y: lastSeg.y, dir: lastSeg.dir });
-        if(Win == Game.Tail.length + 1){
+        if(Game.Score >= 9700){
             clearInterval(loop);
             win(Game)
         }

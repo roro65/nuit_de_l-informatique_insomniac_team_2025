@@ -104,7 +104,7 @@ function updateGame(Game){
         //     clearInterval(loop);
         //     win(Game)
         // }
-        if(Game.Score >= 1000){
+        if(Game.Score >= 9700){
             clearInterval(loop);
             win(Game)
         }
