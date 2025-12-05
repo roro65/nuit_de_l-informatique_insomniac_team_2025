@@ -32,7 +32,7 @@
         </ul>
 
         <div class="bar-recherche">
-            <input type="text" placeholder="Entrez votre recherche">
+            <input type="text" id="" placeholder="Entrez votre recherche">
             <button>Search</button>
         </div>
 
@@ -80,8 +80,10 @@
         antoinepatrice973@gmail.com
         lysiane.pleindoux@etu.iut-tlse3.fr
     </div>
-
-
-
+<script src="script.js"></script>
+<script>
+    // Appelle la fonction une fois le fichier chargé
+    ActionListener();
+</script>
 </body>
 
