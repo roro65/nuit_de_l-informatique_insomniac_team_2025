@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+
+    display: flex;              /* centrage horizontal + vertical */
+    justify-content: center;
+    align-items: center;
+}
+
+
+#GameBoard {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    margin: 5% auto;     /* centré automatiquement */
+    background-color: black;
+    border: 5px solid rgb(179, 0, 255);
+    border-radius: 10px;
+    width: 420px;
+    height: 420px;
+}
+
+
+
+/* Cases */
+#GameBoard div {
+    width: 40px;
+    height: 40px;
+    background-color: black; /* fond des cases */
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ScoreBoard {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+#Screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
