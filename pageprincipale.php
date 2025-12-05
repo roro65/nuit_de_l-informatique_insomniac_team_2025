@@ -30,7 +30,7 @@
 
         <div class="bar-recherche">
             <input type="text" placeholder="Entrez votre recherche">
-            <button>Search</button>
+            <button id ="Search">Search</button>
         </div>
 
         <img class="logo-NIRD" src="NIRD" alt="logo NIRD">
