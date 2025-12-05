@@ -15,9 +15,9 @@
 
     <div>
         <h1>Qui Sommes nous ?</h1>
-        Ce projet est réalisé par des étudiants de BUT Informatique dans le cadre du défi national de la nuit de l'info édition 2025
-        Ce site a pour objectif de proposer des solutions contre la dépendance du numérique, ce site a pour but de présenter cette démarche soutenue par le collectif étudiant NIRD
-        Ce projet étant un projet étudiant et non officielle est suceptible de contenir des erreurs, il est donc conseiller de vérifier son contenue sur d'autres sites
+        Ce projet est réalisé par des étudiants de BUT Informatique dans le cadre du défi national de la nuit de l'info édition 2025.
+        Ce site a pour objectif de proposer des solutions contre la dépendance du numérique, ce site a pour but de présenter cette démarche soutenue par le collectif étudiant NIRD.
+        Ce projet étant un projet étudiant non officiel, celui-ci est suceptible de contenir des erreurs, il est donc conseillé de vérifier son contenu sur d'autres sites.
 
 
     </div>
