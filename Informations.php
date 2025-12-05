@@ -78,6 +78,7 @@
             Contactez-Nous
         </h1>
         antoinepatrice973@gmail.com
+        lysiane.pleindoux@etu.iut-tlse3.fr
     </div>
 
 
