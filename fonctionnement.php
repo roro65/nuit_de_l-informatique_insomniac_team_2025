@@ -90,6 +90,16 @@
     </div>
 
 </div>
+<div class="navigation-buttons">
+    <a href="linux.html" class="btn">Choix de Linux</a>
+    <a href="fonctionnement.html" class="btn">Fonctionnement</a>
+    <a href="collectivites.html" class="btn">Collectivités</a>
+</div>
+<div class="navigation-buttons">
+    <a href="linux.html" class="btn">Choix de Linux</a>
+    <a href="collectivites.html" class="btn">Collectivités</a>
+</div>
+
 
 </body>
 </html>

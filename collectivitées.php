@@ -78,4 +78,17 @@
             <li><strong>Écoles primaires :</strong> <em>PrimTux</em></li>
             <li><strong>Écoles secondaires :</strong> <em>Linux NIRD</em></li>
         </ul>
-        <p>Ces distributions ont été conçues par et pour des ense
+        <p>Ces distributions ont été conçues par et pour des enseignants, pour répondre aux besoins pédagogiques et techniques des établissements scolaires.</p>
+    </div>
+
+</div>
+<div class="navigation-buttons">
+    <a href="linux.html" class="btn">Choix de Linux</a>
+    <a href="fonctionnement.html" class="btn">Fonctionnement</a>
+</div>
+
+
+
+
+</body>
+</html>
