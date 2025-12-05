@@ -94,8 +94,8 @@
         <br>
 
         <div class="nird-section">
-            <h3>5eme partie</h3>
-            <p>Lorem Ipsum</p>
+            <h3>Données personnelles : la collecte silencieuse</h3>
+            <p>Lorsque vous arrivez sur un site, une fenêtre apparaît souvent pour vous demander d’accepter les conditions d’utilisation. En réalité, très peu de personnes prennent le temps de les lire, et il est difficile de savoir exactement ce que l’on autorise. Sans le savoir, vous pourriez fournir vos identifiants ainsi que des fichiers très sensibles de votre ordinateur. De plus, chaque nouvelle recherche sur Internet génère davantage de données, créant un véritable cercle vicieux.</p>
         </div>
         <br>
 
