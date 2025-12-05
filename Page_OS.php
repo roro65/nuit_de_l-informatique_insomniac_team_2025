@@ -62,31 +62,40 @@ $questions = [
 
 <body>
 <header>
-    <nav>
-        <input type="checkbox" id="burger-toggle">
+        <nav>
+            <input type="checkbox" id="burger-toggle">
 
-        <label for="burger-toggle" class="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+            <label for="burger-toggle" class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
-        <ul class="menu list-item">
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-        </ul>
+            <ul class="menu list-item">
+                <input type="checkbox" id="burger-toggle">
+                <label for="burger-toggle" class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <li><a href="index.php">Page Principale</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivitees.php">Collectivité</a></li>
+                <li><a href="fonctionnement.php">Fonctionnement</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="Informations.php">Information</a></li>
+                <li><a href="habitude_OS.php">Les alternatives</a></li>
+                <li><a href="Page_OS.php">Habitudes OS</a></li>
+            </ul>
 
-        <div class="bar-recherche">
-            <input type="text" placeholder="Entrez votre recherche">
-            <button>Search</button>
-        </div>
+            <div class="bar-recherche">
+                <input type="text" id="SearchBar" placeholder="Entrez votre recherche">
+                <button id="Search">Search</button>
+            </div>
 
-        <img class="logo-NIRD" src="NIRD" alt="logo NIRD">
-    </nav>
-</header>
+            <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
+        </nav>
+    </header>
     <div class="container">
         <h2>Qu'est-ce qu'un OS ?</h2>
 
@@ -191,6 +200,13 @@ $questions = [
     ?>
 </div>
 </div>
-
+<script src="script.js"></script>
+    <script>
+        // Appelle la fonction une fois le fichier chargé
+        ActionListener();
+    </script>
+    <footer>
+        <h4>insomniac team</h4>
+    </footer>
 </body>
 </html>

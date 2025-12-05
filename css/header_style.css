@@ -157,3 +157,12 @@ header nav {
     width: 200px;
     display: inline-block;
 }
+
+footer {
+    background-color: var(--background);
+    border: 3px solid var(--background);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 0 15px var(--secondary);
+    text-align: center;
+}
