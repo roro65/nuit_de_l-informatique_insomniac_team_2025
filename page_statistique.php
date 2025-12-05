@@ -29,8 +29,8 @@
 				</ul>
 
 				<div class="bar-recherche">
-				<input type="text" placeholder="Entrez votre recherche">
-				<button>Search</button>
+				<input type="text" id="SearchBar" placeholder="Entrez votre recherche">
+				<button id ="Search">Search</button>
 				</div>
 
 				<img class="logo-NIRD" src="NIRD" alt="logo NIRD">
@@ -61,6 +61,6 @@
 				<br>
 			</main>
 		</div>
-		<script src="index.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
