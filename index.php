@@ -10,7 +10,6 @@
 </head>
 <header>
     <nav>
-        
         <input type="checkbox" id="burger-toggle">
         <label for="burger-toggle" class="burger-btn">
             <span></span>
