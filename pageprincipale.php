@@ -29,7 +29,7 @@
         </ul>
 
         <div class="bar-recherche">
-            <input type="text" placeholder="Entrez votre recherche">
+            <input type="text" id="SearchBar" placeholder="Entrez votre recherche">
             <button id ="Search">Search</button>
         </div>
 
@@ -82,7 +82,7 @@
     <a href="collectivitées.php" class="btn">Collectivités</a>
 </div>
 
-<script src="index.js"></script>
+<script src="text.js"></script>
 </body>
 
 </html>
