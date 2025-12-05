@@ -34,8 +34,8 @@
         </ul>
 
         <div class="bar-recherche">
-            <input type="text" placeholder="Entrez votre recherche">
-            <button>Search</button>
+            <input type="text" id="SearchBar" placeholder="Entrez votre recherche">
+            <button id="Search">Search</button>
         </div>
 
         <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
@@ -87,4 +87,9 @@
         <p>Ces distributions ont été conçues par et pour des ense</p>
     </div>
 </div>
+<script src="script.js"></script>
+<script>
+    // Appelle la fonction une fois le fichier chargé
+    ActionListener();
+</script>
 </nav>
