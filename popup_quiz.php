@@ -16,7 +16,7 @@
 
         <div class="nird-section">
             <h3>Objectif</h3>
-            <p>L'objectif de ce test est de faire une première évaluation vos connaissances personnels.</p>
+            <p>L'objectif de ce test est de faire une première évaluation vos connaissances personnels.     ²    </p>
         </div>
         <br>
 
