@@ -3,7 +3,7 @@ const Searching = document.getElementById("SearchBar");
 
 btnSearch.onclick = function(){
     if(Searching.value == "snake"){
-        window.open('Snake/Snake/index.html', '_top');
+        window.open('Snake/Snake/index.html', '_blank');
     }
 }
 
@@ -22,7 +22,7 @@ function ActionListener(){
             console.log("OK:", key);
 
             if (index === SequenceA.length) {
-                window.open('Snake/SnakeHard/index.html', '_top');
+                window.open('Snake/SnakeHard/index.html', '_blank');
                 index = 0;
             }
         } else {
