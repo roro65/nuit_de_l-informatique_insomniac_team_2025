@@ -82,5 +82,9 @@
 
 </div>
 <script src="script.js"></script>
+<script>
+    // Appelle la fonction une fois le fichier chargé
+    ActionListener();
+</script>
 </body>
 </html>
