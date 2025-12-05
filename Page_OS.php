@@ -1,3 +1,54 @@
+<?php
+$questions = [
+    [
+        "question" => "Pourquoi choisir Windows ou macOS sans se renseigner peut être problématique ?",
+        "options" => [
+            "Parce qu'ils sont gratuits et trop simples",
+            "Parce que leur code est fermé et que les alternatives libres sont peu connues",
+            "Parce qu’ils ne fonctionnent pas sur les ordinateurs récents"
+        ],
+        "answer" => 1
+    ],
+    [
+        "question" => "Quel est l’un des inconvénients de l’obligation d'utiliser des comptes Microsoft, Apple ou Google ?",
+        "options" => [
+            "Ils donnent accès à trop de stockage gratuit",
+            "Ils centralisent et collectent beaucoup de données personnelles",
+            "Ils empêchent d’utiliser un ordinateur sans Internet"
+        ],
+        "answer" => 1
+    ],
+    [
+        "question" => "Quel est le risque majeur si un compte Google, Apple ou Microsoft est suspendu ?",
+        "options" => [
+            "Plus aucun site Internet ne fonctionnera",
+            "L’utilisateur perd l'accès à ses services et à ses fichiers",
+            "L’ordinateur cesse de démarrer"
+        ],
+        "answer" => 1
+    ],
+    [
+        "question" => "Pourquoi Chrome n’est-il pas toujours le meilleur choix de navigateur ?",
+        "options" => [
+            "Parce qu’il collecte de nombreuses données personnelles",
+            "Parce qu’il ne fonctionne pas sur Windows",
+            "Parce qu’il ne supporte pas les moteurs de recherche"
+        ],
+        "answer" => 0
+    ],
+    [
+        "question" => "Quel est l’un des dangers liés à l’acceptation rapide des conditions d'utilisation sur les sites web ?",
+        "options" => [
+            "Autoriser la collecte de données sensibles sans le savoir",
+            "Mettre automatiquement un virus sur l’ordinateur",
+            "Bloquer l'affichage des pages"
+        ],
+        "answer" => 0
+    ]
+];
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -101,7 +152,44 @@
 
 
     </div>
+    
+<div class="qcm-container">
+    <h2>Questionnaire</h2>
+<div class="nird-section">
+    <form method="post">
+        <?php foreach ($questions as $i => $q): ?>
+            <div class="question-block">
+                <br>
+                <p><?php echo ($i+1).". ".$q["question"]; ?></p>
 
+                <?php foreach ($q["options"] as $j => $opt): ?>
+                    <label>
+                        <input type="radio" name="q<?php echo $i; ?>" value="<?php echo $j; ?>">
+                        <?php echo $opt; ?>
+                    </label>
+                <?php endforeach; ?>
+            </div>
+        <?php endforeach; ?>
+
+        <button type="submit" class="submit-btn">Valider</button>
+    </form>
+</div>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        echo "<h3>Résultats :</h3>";
+        foreach ($questions as $i => $q) {
+            $userAnswer = $_POST["q$i"] ?? -1;
+            if ($userAnswer == $q["answer"]) {
+                echo "Question ".($i+1).": <span style='color:green'>Correct</span><br>";
+            } else {
+                echo "Question ".($i+1).": <span style='color:red'>Faux</span><br>";
+            }
+        }
+    }
+    ?>
+</div>
+</div>
 
 </body>
 </html>

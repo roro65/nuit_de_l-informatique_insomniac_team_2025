@@ -1,3 +1,45 @@
+<?php
+$questions = [
+    [
+        "question" => "Pourquoi Linux est-il souvent plus performant que Windows ou macOS sur des ordinateurs anciens ?",
+        "options" => [
+            "Parce qu'il nécessite un matériel récent et puissant",
+            "Parce qu'il consomme moins de ressources et fonctionne sur des machines peu puissantes",
+            "Parce qu’il est fourni uniquement sur les ordinateurs Apple"
+        ],
+        "answer" => 1
+    ],
+    [
+        "question" => "Quel avantage majeur des systèmes open-source comme Linux ou BSD les distingue de Windows et macOS ?",
+        "options" => [
+            "Ils sont payants et verrouillés",
+            "Ils collectent beaucoup plus de données personnelles",
+            "Ils sont libres, modifiables et souvent plus respectueux de la vie privée"
+        ],
+        "answer" => 2
+    ],
+    [
+        "question" => "Quelle alternative open-source permet de remplacer les services de messagerie comme Gmail ou Outlook avec un haut niveau de confidentialité ?",
+        "options" => [
+            "ProtonMail",
+            "Hotmail",
+            "Yahoo Mail"
+        ],
+        "answer" => 0
+    ],
+    [
+        "question" => "Quel navigateur est une alternative plus respectueuse de la vie privée et moins gourmande que Google Chrome ?",
+        "options" => [
+            "Firefox",
+            "Internet Explorer",
+            "Chrome Beta"
+        ],
+        "answer" => 0
+    ]
+];
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -165,7 +207,44 @@
 
 
     </div>
+    
+<div class="qcm-container">
+    <h2>Questionnaire</h2>
+<div class="nird-section">
+    <form method="post">
+        <?php foreach ($questions as $i => $q): ?>
+            <div class="question-block">
+                <br>
+                <p><?php echo ($i+1).". ".$q["question"]; ?></p>
 
+                <?php foreach ($q["options"] as $j => $opt): ?>
+                    <label>
+                        <input type="radio" name="q<?php echo $i; ?>" value="<?php echo $j; ?>">
+                        <?php echo $opt; ?>
+                    </label>
+                <?php endforeach; ?>
+            </div>
+        <?php endforeach; ?>
+
+        <button type="submit" class="submit-btn">Valider</button>
+    </form>
+</div>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        echo "<h3>Résultats :</h3>";
+        foreach ($questions as $i => $q) {
+            $userAnswer = $_POST["q$i"] ?? -1;
+            if ($userAnswer == $q["answer"]) {
+                echo "Question ".($i+1).": <span style='color:green'>Correct</span><br>";
+            } else {
+                echo "Question ".($i+1).": <span style='color:red'>Faux</span><br>";
+            }
+        }
+    }
+    ?>
+</div>
+</div>
 
 </body>
 </html>

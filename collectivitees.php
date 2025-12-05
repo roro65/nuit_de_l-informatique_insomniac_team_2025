@@ -138,6 +138,7 @@ $questions = [
     <form method="post">
         <?php foreach ($questions as $i => $q): ?>
             <div class="question-block">
+                <br>
                 <p><?php echo ($i+1).". ".$q["question"]; ?></p>
 
                 <?php foreach ($q["options"] as $j => $opt): ?>

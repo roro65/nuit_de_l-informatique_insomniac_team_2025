@@ -1,3 +1,45 @@
+<?php
+$questions = [
+    [
+        "question" => "Pourquoi la distribution Linux choisie dans la démarche NIRD est-elle particulièrement adaptée aux anciennes machines ?",
+        "options"  => [
+            "Parce qu'elle nécessite une connexion Internet permanente",
+            "Parce qu’elle est légère et utilise Xfce, un environnement peu gourmand en ressources",
+            "Parce qu’elle impose du matériel récent pour fonctionner correctement"
+        ],
+        "answer"   => 1
+    ],
+    [
+        "question" => "Quel avantage de Linux NIRD permet aux élèves de participer activement à la transformation numérique ?",
+        "options"  => [
+            "La distribution peut être reconditionnée sur des PC dormants par les élèves",
+            "Elle nécessite l’achat obligatoire de nouveau matériel",
+            "Elle est incompatible avec les clubs informatiques scolaires"
+        ],
+        "answer"   => 0
+    ],
+    [
+        "question" => "Quel est l’un des atouts majeurs de Linux pour garantir un usage fiable en cas de coupure Internet ?",
+        "options"  => [
+            "Elle utilise uniquement des services en ligne",
+            "Elle fonctionne entièrement hors connexion",
+            "Elle bloque l’accès aux logiciels éducatifs"
+        ],
+        "answer"   => 1
+    ],
+    [
+        "question" => "Quel type d'alternative permet de tester plusieurs systèmes sur un même ordinateur dans le cadre éducatif ?",
+        "options"  => [
+            "La virtualisation et les containers",
+            "Le remplacement complet du disque dur",
+            "Le formatage obligatoire de Windows"
+        ],
+        "answer"   => 0
+    ]
+];
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -86,7 +128,43 @@
         </ul>
         <p>L’objectif est de promouvoir un numérique inclusif, responsable et durable, tout en restant adapté aux contraintes matérielles et pédagogiques des établissements scolaires.</p>
     </div>
+    
+<div class="qcm-container">
+    <h2>Questionnaire</h2>
+<div class="nird-section">
+    <form method="post">
+        <?php foreach ($questions as $i => $q): ?>
+            <div class="question-block">
+                <br>
+                <p><?php echo ($i+1).". ".$q["question"]; ?></p>
 
+                <?php foreach ($q["options"] as $j => $opt): ?>
+                    <label>
+                        <input type="radio" name="q<?php echo $i; ?>" value="<?php echo $j; ?>">
+                        <?php echo $opt; ?>
+                    </label>
+                <?php endforeach; ?>
+            </div>
+        <?php endforeach; ?>
+
+        <button type="submit" class="submit-btn">Valider</button>
+    </form>
+</div>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        echo "<h3>Résultats :</h3>";
+        foreach ($questions as $i => $q) {
+            $userAnswer = $_POST["q$i"] ?? -1;
+            if ($userAnswer == $q["answer"]) {
+                echo "Question ".($i+1).": <span style='color:green'>Correct</span><br>";
+            } else {
+                echo "Question ".($i+1).": <span style='color:red'>Faux</span><br>";
+            }
+        }
+    }
+    ?>
+</div>
 </div>
 <script src="script.js"></script>
 <script>
