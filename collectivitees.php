@@ -86,6 +86,48 @@
         </ul>
         <p>Ces distributions ont été conçues par et pour des ense</p>
     </div>
+
+    <?php
+$questions = [
+    [
+        "question" => "Quel est l’un des principaux intérêts pour une collectivité de soutenir la démarche NIRD ?",
+        "options"  => [
+            "Augmenter la dépendance aux entreprises privées étrangères",
+            "Prolonger la durée de vie des équipements numériques et réduire les déchets électroniques",
+            "Rendre obligatoire l'achat de matériel informatique neuf"
+        ],
+        "answer"   => 1
+    ],
+    [
+        "question" => "Comment une collectivité peut-elle accompagner efficacement la démarche NIRD dans les établissements ?",
+        "options"  => [
+            "En imposant l’usage exclusif de Windows ou macOS",
+            "En favorisant les partenariats locaux et la formation des personnels au reconditionnement sous Linux",
+            "En interdisant l’utilisation de logiciels libres dans les écoles"
+        ],
+        "answer"   => 1
+    ],
+    [
+        "question" => "Quelle distribution Linux est recommandée pour les écoles primaires ?",
+        "options"  => [
+            "Linux NIRD",
+            "PrimTux",
+            "Ubuntu Server"
+        ],
+        "answer"   => 1
+    ],
+    [
+        "question" => "Pourquoi Linux renforce-t-il la souveraineté numérique des collectivités ?",
+        "options"  => [
+            "Parce qu’il dépend fortement des services commerciaux américains",
+            "Parce que son code source est ouvert et réduit la dépendance aux acteurs privés étrangers",
+            "Parce qu’il nécessite des licences logicielles coûteuses"
+        ],
+        "answer"   => 1
+    ]
+];
+?>
+
 </div>
 <script src="script.js"></script>
 <script>
