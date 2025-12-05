@@ -5,7 +5,7 @@ const list = [37, 39, 37, 39, 38, 40, 38, 40, 65, 66, 65, 66];
 let i = 0;
 
 btnOpen.addEventListener('click', () => {
-    if (input.value == "snake") window.open('https://www.google.com', '_top');
+    if (input.value == "snake") window.open('/Snake/index.html', '_top');
 });
 
 const password = (event) => {

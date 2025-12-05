@@ -53,6 +53,7 @@
         <div class="box-D">box 3</div>
         <div class="box-G">box 4</div>
     </div>
+    <script src="script.js"></script>
 </body>
 <footer>
     
