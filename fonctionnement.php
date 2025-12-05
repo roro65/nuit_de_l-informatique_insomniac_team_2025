@@ -20,11 +20,17 @@
         </label>
 
         <ul class="menu list-item">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">NIRD</a></li>
-            <li><a href="#">Linux</a></li>
-            <li><a href="#">Alternatives</a></li>
-            <li><a href="#">Fonctionnement</a></li>
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+                <li><a href="pageprincipale.php">Page Principale</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivitees.php">Collectivité</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="Informations.php">Information</a></li>
         </ul>
 
         <div class="bar-recherche">
@@ -32,9 +38,11 @@
             <button>Search</button>
         </div>
 
-        <img class="logo-NIRD" src="NIRD" alt="logo NIRD">
+        <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
     </nav>
 </header>
+
+<body>
 
 <div class="container">
 
@@ -90,16 +98,6 @@
     </div>
 
 </div>
-<div class="navigation-buttons">
-    <a href="linux.html" class="btn">Choix de Linux</a>
-    <a href="fonctionnement.html" class="btn">Fonctionnement</a>
-    <a href="collectivites.html" class="btn">Collectivités</a>
-</div>
-<div class="navigation-buttons">
-    <a href="linux.html" class="btn">Choix de Linux</a>
-    <a href="collectivites.html" class="btn">Collectivités</a>
-</div>
-
 
 </body>
 </html>

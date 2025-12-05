@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/header_style.css" />
 
 </head>
-
-<body>
 <header>
     <nav>
         <input type="checkbox" id="burger-toggle">
@@ -21,23 +19,31 @@
         </label>
 
         <ul class="menu list-item">
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
-            <li><a href="#">jdzefhzfiz</a></li>
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+                <li><a href="pageprincipale.php">Page Principale</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivitees.php">Collectivité</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="Informations.php">Information</a></li>
         </ul>
 
         <div class="bar-recherche">
-            <input type="text" id="SearchBar" placeholder="Entrez votre recherche">
-            <button id ="Search">Search</button>
+            <input type="text" placeholder="Entrez votre recherche">
+            <button>Search</button>
         </div>
 
-        <img class="logo-NIRD" src="NIRD" alt="logo NIRD">
+        <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
     </nav>
 </header>
 
-<div class="container">
+<body>
+
+<div for="burger-toggle" class="container">
 
     <!-- TITRE HORS ENCADRÉ -->
     <h2>Qu’est-ce que le NIRD ?</h2>
@@ -76,13 +82,5 @@
 
 </div>
 
-<div class="navigation-buttons">
-    <a href="alternatives.php" class="btn">Choix de Linux</a>
-    <a href="fonctionnement.php" class="btn">Fonctionnement</a>
-    <a href="collectivitées.php" class="btn">Collectivités</a>
-</div>
-
-<script src="script.js"></script>
 </body>
-
 </html>
