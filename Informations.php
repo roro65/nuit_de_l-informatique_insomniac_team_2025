@@ -69,7 +69,9 @@
                 BRIERE Mathis <br>
                 BENDRELL Nathan <br>      
             </p>
-            <img src=".jpg" alt="Image de l'équipe" >
+            <div class="nird-section" text-align="center">
+                <img class="equipe" src="img/equipe.jpg" alt="Image de l'équipe" >
+            </div>
         </div>
     </div>
 
