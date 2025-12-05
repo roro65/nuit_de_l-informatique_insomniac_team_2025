@@ -82,6 +82,7 @@
     <a href="collectivitées.php" class="btn">Collectivités</a>
 </div>
 
-
+<script src="index.js"></script>
 </body>
+
 </html>

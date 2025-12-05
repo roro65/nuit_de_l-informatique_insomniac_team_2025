@@ -36,6 +36,6 @@
         <button class="close-btn" onclick="document.getElementById('popup').style.display='none'">Commencer</button>
     </div>
 </div>
-
+<script src="index.js"></script>
 </body>
 </html>
