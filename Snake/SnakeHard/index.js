@@ -354,7 +354,7 @@ const loop = setInterval(mainLoop, 100);
 
 function win(Game){
     console.clear();
-    window.alert("Win ! Score:", Game.Score);
+    window.alert("Vous avez gagner !\nFais par Grégoire GIBRAT et Nathan BENDRELL!");
     clearInterval(loop);
 }
 
