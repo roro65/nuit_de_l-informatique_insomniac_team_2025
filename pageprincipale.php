@@ -33,8 +33,8 @@
         </ul>
 
         <div class="bar-recherche">
-            <input type="text" placeholder="Entrez votre recherche">
-            <button>Search</button>
+            <input type="text" id="SearchBar" placeholder="Entrez votre recherche">
+            <button id="Search">Search</button>
         </div>
 
         <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
