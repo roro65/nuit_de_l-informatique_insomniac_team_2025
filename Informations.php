@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/header_style.css" />
     <title>NIRD - A propos</title>
 </head>
 <header>
+    <nav>
+        <input type="checkbox" id="burger-toggle">
+
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="menu list-item">
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+                <li><a href="pageprincipale.php">Page Principale</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivitees.php">Collectivité</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="Informations.php">Information</a></li>
+        </ul>
+
+        <div class="bar-recherche">
+            <input type="text" placeholder="Entrez votre recherche">
+            <button>Search</button>
+        </div>
+
+        <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
+    </nav>
 </header>
 
 

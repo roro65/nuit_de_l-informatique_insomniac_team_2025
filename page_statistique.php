@@ -10,32 +10,38 @@
 	</head>
 	
 	<body>
-		<header>
-			<nav>
-				<input type="checkbox" id="burger-toggle">
+<header>
+    <nav>
+        <input type="checkbox" id="burger-toggle">
 
-				<label for="burger-toggle" class="burger-icon">
-					<span></span>
-					<span></span>
-					<span></span>
-				</label>
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
-				<ul class="menu list-item">
-						<li><a href="#">jdzefhzfiz</a></li>
-						<li><a href="#">jdzefhzfiz</a></li>
-						<li><a href="#">jdzefhzfiz</a></li>
-						<li><a href="#">jdzefhzfiz</a></li>
-						<li><a href="#">jdzefhzfiz</a></li>
-				</ul>
+        <ul class="menu list-item">
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+                <li><a href="pageprincipale.php">Page Principale</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivitees.php">Collectivité</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="Informations.php">Information</a></li>
+        </ul>
 
-				<div class="bar-recherche">
-				<input type="text" id="SearchBar" placeholder="Entrez votre recherche">
-				<button id ="Search">Search</button>
-				</div>
+        <div class="bar-recherche">
+            <input type="text" placeholder="Entrez votre recherche">
+            <button>Search</button>
+        </div>
 
-				<img class="logo-NIRD" src="NIRD" alt="logo NIRD">
-			</nav>
-		</header>
+        <img class="logo-NIRD" src="img/image.png" alt="logo NIRD">
+    </nav>
+</header>
 
 		<div class="container">
 			<main>
@@ -61,6 +67,5 @@
 				<br>
 			</main>
 		</div>
-		<script src="script.js"></script>
 	</body>
 </html>
