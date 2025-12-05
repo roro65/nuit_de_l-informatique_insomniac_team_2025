@@ -83,5 +83,10 @@
 
 </div>
 
+<div class="navigation-buttons">
+    <a href="./fonctionnement.php" class="btn">Fonctionnement</a>
+    <a href="./collectivitées.php" class="btn">Collectivités</a>
+</div>
+
 </body>
 </html>

@@ -76,5 +76,12 @@
 
 </div>
 
+<div class="navigation-buttons">
+    <a href="alternatives.php" class="btn">Choix de Linux</a>
+    <a href="fonctionnement.php" class="btn">Fonctionnement</a>
+    <a href="collectivitées.php" class="btn">Collectivités</a>
+</div>
+
+
 </body>
 </html>
