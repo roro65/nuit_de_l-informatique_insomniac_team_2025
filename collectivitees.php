@@ -22,19 +22,19 @@ $questions = [
         "question" => "Quelle distribution Linux est recommandée pour les écoles primaires ?",
         "options"  => [
             "Linux NIRD",
-            "PrimTux",
-            "Ubuntu Server"
+            "Ubuntu Server",
+            "PrimTux"
         ],
-        "answer"   => 1
+        "answer"   => 2
     ],
     [
         "question" => "Pourquoi Linux renforce-t-il la souveraineté numérique des collectivités ?",
         "options"  => [
-            "Parce qu’il dépend fortement des services commerciaux américains",
             "Parce que son code source est ouvert et réduit la dépendance aux acteurs privés étrangers",
+            "Parce qu’il dépend fortement des services commerciaux américains",
             "Parce qu’il nécessite des licences logicielles coûteuses"
         ],
-        "answer"   => 1
+        "answer"   => 0
     ]
 ];
 ?>
@@ -134,7 +134,7 @@ $questions = [
 
 <div class="qcm-container">
     <h2>Questionnaire</h2>
-
+<div class="nird-section">
     <form method="post">
         <?php foreach ($questions as $i => $q): ?>
             <div class="question-block">
@@ -151,6 +151,7 @@ $questions = [
 
         <button type="submit" class="submit-btn">Valider</button>
     </form>
+</div>
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
