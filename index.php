@@ -18,11 +18,11 @@
             <span></span>
         </label>
         <ul class="menu list-item">
-                <li><a href="#">jdzefhzfiz</a></li>
-                <li><a href="#">jdzefhzfiz</a></li>
-                <li><a href="#">jdzefhzfiz</a></li>
-                <li><a href="#">jdzefhzfiz</a></li>
-                <li><a href="#">jdzefhzfiz</a></li>
+                <li><a href="Informations.php">Information</a></li>
+                <li><a href="alternatives.php">Alternatives</a></li>
+                <li><a href="collectivite.php">Collectivité</a></li>
+                <li><a href="page_statistique.php">page statistique</a></li>
+                <li><a href="pageprincipale.php">Page Principale</a></li>
         </ul>
 
         <div class="bar-recherche">
@@ -31,7 +31,7 @@
         
         </div>
 
-        <img class="logo-NIRD" src="NIRD" alt="logo NIRD">
+        <img class="img/image.png" src="NIRD" alt="logo NIRD">
     </nav>
 </header>
 <body>
@@ -53,7 +53,6 @@
         <div class="box-D">box 3</div>
         <div class="box-G">box 4</div>
     </div>
-    <script src="script.js"></script>
 </body>
 <footer>
     
