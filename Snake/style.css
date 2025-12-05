@@ -1,0 +1,10 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+#GameBoard{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
