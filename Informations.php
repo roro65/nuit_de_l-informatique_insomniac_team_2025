@@ -82,6 +82,8 @@
         antoinepatrice973@gmail.com
         lysiane.pleindoux@etu.iut-tlse3.fr
     </div>
+
+    
 <script src="script.js"></script>
 <script>
     // Appelle la fonction une fois le fichier chargé

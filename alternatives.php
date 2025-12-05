@@ -140,8 +140,10 @@ $questions = [
 
                 <?php foreach ($q["options"] as $j => $opt): ?>
                     <label>
+                        <br>
                         <input type="radio" name="q<?php echo $i; ?>" value="<?php echo $j; ?>">
                         <?php echo $opt; ?>
+                        
                     </label>
                 <?php endforeach; ?>
             </div>
