@@ -46,7 +46,7 @@
 
 		<div>
 			<h2>Évolution personnelle des connaissances</h2>
-			<p>Voici l'évolution de vos résultats après vous être renseigné sur notre site.</p>
+			<p>Voici l'évolution de vos résultats après consultation du site.</p>
 			<div id="stat_apres">
 
 			</div>
