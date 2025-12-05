@@ -100,7 +100,11 @@ function updateGame(Game){
         generatePomm(Game);
         let lastSeg = Game.Tail[Game.Tail.length - 1];
         Game.Tail.push({ x: lastSeg.x, y: lastSeg.y, dir: lastSeg.dir });
-        if(Win == Game.Tail.length + 1){
+        // if(Win == Game.Tail.length + 1){
+        //     clearInterval(loop);
+        //     win(Game)
+        // }
+        if(Game.Score == 1000){
             clearInterval(loop);
             win(Game)
         }
@@ -354,7 +358,7 @@ const loop = setInterval(mainLoop, 100);
 
 function win(Game){
     console.clear();
-    window.alert("Win ! Score:", Game.Score);
+    window.alert("Vous avez gagner !\nFais par Grégoire GIBRAT et Nathan BENDRELL!");
     clearInterval(loop);
 }
 
